@@ -44,7 +44,7 @@ class CustomPlayer(DataPlayer):
         '''normalize the data into range 0-1'''
         model = MinMaxScaler()
         transformed_input_data = input_data.reshape(-1, 1)
-        output = model.fit_transform(transformed_input_data).squeeze()
+        output = model.fit_transform(transformed_input_data.astype(float)).squeeze()
         return output
 
     def add_to_q(self,board_state_raw,action, value, initial_value = 0):
