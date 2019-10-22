@@ -59,7 +59,7 @@ class CustomPlayer(DataPlayer):
             self.q[board_state][action] = initial_value
 
     def record_q(self, value_to_add, initial_value=0):
-        print('history to record is shape {}'.format(self.history.shape))
+        #print('history to record is shape {}'.format(self.history.shape))
         if len(self.history) > 2:
             for hist in self.history:
                 #print(hist)
