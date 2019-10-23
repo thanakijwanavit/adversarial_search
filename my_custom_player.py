@@ -4,6 +4,7 @@ import sklearn as skl
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 import pickle
+import json
 import os
 import sys
 
@@ -107,21 +108,21 @@ class CustomPlayer(DataPlayer):
         np.save('./action_cache.npy', np.empty((0,2),str ))
 
     def load_dict(self,directory):
-        with open(directory, 'rb') as f:
-            return pickle.load(f)
+        with open(directory, 'r') as f:
+            return json.load(f)
 
     def save_dict(self,directory, dictionary_to_save):
-        with open(directory, 'wb') as f:
-            pickle.dump(dictionary_to_save,f,protocol=pickle.HIGHEST_PROTOCOL)
+        with open(directory, 'w') as f:
+            json.dump(dictionary_to_save,f)
 
     def save_q(self):
         #print('q to save is {}'.format(self.q))
         q = self.q
-        path = './q.pkl'
+        path = './q.json'
         self.save_dict(path,q)
 
     def load_q(self):
-        path = './q.pkl'
+        path = './q.json'
         if os.path.exists(path):
             self.q = self.load_dict(path)
         else:
