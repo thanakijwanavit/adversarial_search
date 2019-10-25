@@ -3,6 +3,7 @@ import json
 import os
 import pprint
 import time
+import numpy as np
 def merge_dict_add_value(dict1, dict2):
    ''' Merge dictionaries and keep values of common keys in list'''
    dict3 = {**dict1, **dict2}
@@ -22,18 +23,24 @@ with open('./q/q.json', 'r') as f:
 print('len of q is {}'.format(len(q.keys())))
     
 for qs_name in files_without_main_q:
-    with open('./q/'+qs_name, 'r') as f:
-        qs = json.load(f)
-    for key in qs.keys():
-        if key in q.keys():
-            q[key] = merge_dict_add_value(q[key],qs[key])
-        else:
-            q[key] = qs[key]
-    print(' len of qs is {}, len of new q is {}'.format(len(qs.keys()),len(q.keys())))
-
-with open('./q/q_updated.json', 'w') as f:
+    try:
+        with open('./q/'+qs_name, 'r') as f:
+            qs = json.load(f)
+        for key in qs.keys():
+            if key in q.keys():
+                q[key] = merge_dict_add_value(q[key],qs[key])
+            else:
+                q[key] = qs[key]
+        print(' len of qs is {}, len of new q is {}'.format(len(qs.keys()),len(q.keys())))
+    except:
+        continue
+tmp_dir = './q/q_updated{}.json'.format(np.random.randint(100,99999))
+with open(tmp_dir, 'w') as f:
     q=json.dump(q,f)
 
 for file_name in files_without_main_q:
-    os.remove('./q/'+file_name)
-os.rename('./q/q_updated.json','./q/q.json')
+    try:
+        os.remove('./q/'+file_name)
+    except:
+        continue
+os.rename( tmp_dir , './q/q.json')
