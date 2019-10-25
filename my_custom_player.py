@@ -120,7 +120,7 @@ class CustomPlayer(DataPlayer):
     def save_q(self):
         #print('q to save is {}'.format(self.q))
         q = self.q
-        path = './q/q.json'
+        path = './q/q{}.json'.format(np.random.randint(10000,99999))
         self.save_dict(path,q)
 
     def load_q(self):

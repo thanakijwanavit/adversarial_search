@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import pprint
+import time
 def merge_dict_add_value(dict1, dict2):
    ''' Merge dictionaries and keep values of common keys in list'''
    dict3 = {**dict1, **dict2}
@@ -14,6 +15,7 @@ def merge_dict_add_value(dict1, dict2):
 files = os.listdir('./q')
 files_without_main_q = [file for file in files if file not in ['q.json','q_updated.json']]
 print(files_without_main_q)
+time.sleep(2)
 with open('./q/q.json', 'r') as f:
     q=json.load(f)
 
