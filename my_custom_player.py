@@ -135,7 +135,7 @@ class CustomPlayer(DataPlayer):
         state = str(state.board)
         #print('state is {} , q_keys is {}'.format(state, self.q.keys()))
         if state in self.q.keys():
-            print('state is in q keys')
+            #print('state is in q keys')
             for action in possible_actions:
                 action_str = str(action)
                 if action_str in self.q[state].keys():
