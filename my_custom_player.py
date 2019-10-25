@@ -118,11 +118,11 @@ class CustomPlayer(DataPlayer):
     def save_q(self):
         #print('q to save is {}'.format(self.q))
         q = self.q
-        path = './q.json'
+        path = './q/q.json'
         self.save_dict(path,q)
 
     def load_q(self):
-        path = './q.json'
+        path = './q/q.json'
         if os.path.exists(path):
             self.q = self.load_dict(path)
         else:
