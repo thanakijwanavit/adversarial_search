@@ -7,6 +7,7 @@ import pickle
 import json
 import os
 import sys
+from filelock import FileLock
 
 
 class CustomPlayer(DataPlayer):
@@ -112,8 +113,9 @@ class CustomPlayer(DataPlayer):
             return json.load(f)
 
     def save_dict(self,directory, dictionary_to_save):
-        with open(directory, 'w') as f:
-            json.dump(dictionary_to_save,f)
+        with FileLock(directory):
+            with open(directory, 'w') as f:
+                json.dump(dictionary_to_save,f)
 
     def save_q(self):
         #print('q to save is {}'.format(self.q))
