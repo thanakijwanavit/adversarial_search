@@ -9,7 +9,7 @@ def merge_dict_add_value(dict1, dict2):
    dict3 = {**dict1, **dict2}
    for key, value in dict3.items():
        if key in dict1 and key in dict2:
-               dict3[key] = value + dict1[key]
+               dict3[key] = value/2 + dict1[key]/2
  
    return dict3
 
