@@ -18,6 +18,9 @@ files_without_main_q = [file for file in files if file not in ['q.json','q_updat
 if len(files_without_main_q) > 10:
     files_without_main_q = np.array(files_without_main_q)[np.random.randint(0,len(files_without_main_q),10)]
 print(files_without_main_q)
+if 'q.json' not in os.listdir('./q'):
+    with open('./q/q.json','w') as f:
+        json.dump({},f)
 with open('./q/q.json', 'r') as f:
     q=json.load(f)
 
