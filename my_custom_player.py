@@ -79,10 +79,10 @@ class CustomPlayer(DataPlayer):
         self.load_record_action()
         adjustment_to_q = 0.01
         if win:
-            print('the winner is player {}'.format('custom player'))
+            #print('the winner is player {}'.format('custom player'))
             self.record_q(adjustment_to_q * 1, initial_value=0)
         else:
-            print('custom player has lost')
+            #print('custom player has lost')
             self.record_q(adjustment_to_q * -1, initial_value=0)
         #sys.stdout.flush
         #sys.stdout.write(str(self.history))

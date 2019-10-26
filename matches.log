@@ -1,6 +1,6 @@
 INFO:root:Search Configuration:
 Opponent: MINIMAX
-Rounds: 5
+Rounds: 10
 Fair Matches: False
 Time Limit: 150
 Processes: 1
@@ -11,13 +11,13 @@ First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Min
 Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101713120 on ./q/q18452.json
-INFO:filelock:Lock 112101713120 acquired on ./q/q18452.json
-DEBUG:filelock:Attempting to release lock 112101713120 on ./q/q18452.json
-INFO:filelock:Lock 112101713120 released on ./q/q18452.json
+DEBUG:filelock:Attempting to acquire lock 112018770520 on ./q/q56590.json
+INFO:filelock:Lock 112018770520 acquired on ./q/q56590.json
+DEBUG:filelock:Attempting to release lock 112018770520 on ./q/q56590.json
+INFO:filelock:Lock 112018770520 released on ./q/q56590.json
 INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=35192216701543172011994042913153998, ply_count=61, locs=(35, 10))
-History: [59, 69, <Action.NNE: 25>, -27, <Action.NNE: 25>, -11, <Action.ESE: -15>, 15, <Action.ESE: -15>, 25, <Action.SSE: -27>, -11, <Action.WSW: -11>, -27, <Action.NNE: 25>, -15, <Action.SSE: -27>, 11, <Action.WSW: -11>, -25, <Action.NNE: 25>, 15, <Action.WNW: 15>, 15, <Action.WSW: -11>, 27, <Action.WNW: 15>, 25, <Action.NNE: 25>, 15, <Action.ENE: 11>, -27, <Action.SSE: -27>, -27, <Action.WSW: -11>, -15, <Action.NNE: 25>, -27, <Action.ESE: -15>, 25, <Action.ESE: -15>, -15, <Action.SSW: -25>, -15, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNW: 27>, -11, <Action.NNE: 25>, 27, <Action.WSW: -11>, 15, <Action.WSW: -11>, 15, <Action.NNW: 27>, -25, <Action.SSW: -25>, -27, <Action.SSW: -25>, -11, <Action.SSE: -27>]
+Final State: Isolation(board=37141883279795321245314491808662779, ply_count=56, locs=(107, 9))
+History: [70, 110, <Action.NNE: 25>, -25, <Action.ESE: -15>, -11, <Action.ESE: -15>, -25, <Action.SSW: -25>, -15, <Action.SSE: -27>, 27, <Action.WSW: -11>, -15, <Action.NNE: 25>, 27, <Action.NNE: 25>, -11, <Action.WSW: -11>, -15, <Action.NNE: 25>, -27, <Action.WSW: -11>, 15, <Action.WSW: -11>, -27, <Action.WSW: -11>, 11, <Action.NNE: 25>, 11, <Action.NNE: 25>, 27, <Action.NNE: 25>, 27, <Action.WSW: -11>, -15, <Action.ESE: -15>, -27, <Action.ESE: -15>, -11, <Action.WSW: -11>, -15, <Action.WNW: 15>, 27, <Action.WSW: -11>, -11, <Action.WNW: 15>, 27, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, -27, <Action.ESE: -15>, 15, <Action.ENE: 11>, <Action.SSE: -27>]
 Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
@@ -27,13 +27,13 @@ First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Cu
 Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101715080 on ./q/q55946.json
-INFO:filelock:Lock 112101715080 acquired on ./q/q55946.json
-DEBUG:filelock:Attempting to release lock 112101715080 on ./q/q55946.json
-INFO:filelock:Lock 112101715080 released on ./q/q55946.json
+DEBUG:filelock:Attempting to acquire lock 112018635520 on ./q/q13130.json
+INFO:filelock:Lock 112018635520 acquired on ./q/q13130.json
+DEBUG:filelock:Attempting to release lock 112018635520 on ./q/q13130.json
+INFO:filelock:Lock 112018635520 released on ./q/q13130.json
 INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=38276133460507967875631166125123477, ply_count=59, locs=(14, 29))
-History: [19, 53, 25, <Action.NNE: 25>, 25, <Action.WSW: -11>, 11, <Action.WNW: 15>, -15, <Action.SSE: -27>, -25, <Action.ENE: 11>, -25, <Action.SSW: -25>, 11, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.WSW: -11>, 11, <Action.NNE: 25>, 15, <Action.ENE: 11>, 25, <Action.WNW: 15>, 15, <Action.WNW: 15>, 15, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, -25, <Action.WSW: -11>, -25, <Action.SSW: -25>, 11, <Action.WNW: 15>, 11, <Action.NNE: 25>, -25, <Action.ENE: 11>, -25, <Action.SSW: -25>, 15, <Action.ENE: 11>, 25, <Action.SSW: -25>, -11, <Action.SSW: -25>, -15, <Action.ENE: 11>, -15, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ENE: 11>]
+Final State: Isolation(board=39574232277698236129336449271079937, ply_count=71, locs=(36, 72))
+History: [93, 30, -11, <Action.NNE: 25>, 15, <Action.NNE: 25>, -11, <Action.ESE: -15>, -25, <Action.SSW: -25>, -27, <Action.SSW: -25>, -27, <Action.WSW: -11>, 11, <Action.NNE: 25>, 27, <Action.NNE: 25>, 15, <Action.WSW: -11>, 27, <Action.NNE: 25>, -25, <Action.WSW: -11>, -15, <Action.ESE: -15>, 27, <Action.NNW: 27>, -15, <Action.NNE: 25>, -11, <Action.SSE: -27>, -27, <Action.NNE: 25>, -15, <Action.WSW: -11>, 25, <Action.ESE: -15>, 27, <Action.SSE: -27>, 27, <Action.SSW: -25>, 15, <Action.WSW: -11>, -27, <Action.NNE: 25>, -27, <Action.SSE: -27>, -11, <Action.NNE: 25>, -27, <Action.WNW: 15>, 11, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WNW: 15>, -27, <Action.NNW: 27>, -15, <Action.ENE: 11>, 25, <Action.SSW: -25>, -11, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, 15, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>]
 Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
@@ -43,13 +43,13 @@ First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Min
 Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101715360 on ./q/q89847.json
-INFO:filelock:Lock 112101715360 acquired on ./q/q89847.json
-DEBUG:filelock:Attempting to release lock 112101715360 on ./q/q89847.json
-INFO:filelock:Lock 112101715360 released on ./q/q89847.json
+DEBUG:filelock:Attempting to acquire lock 112018636192 on ./q/q88566.json
+INFO:filelock:Lock 112018636192 acquired on ./q/q88566.json
+DEBUG:filelock:Attempting to release lock 112018636192 on ./q/q88566.json
+INFO:filelock:Lock 112018636192 released on ./q/q88566.json
 INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=40101768303843629154709106363295742, ply_count=52, locs=(80, 0))
-History: [105, 55, <Action.SSE: -27>, -11, <Action.SSW: -25>, -11, <Action.SSE: -27>, -15, <Action.WNW: 15>, 11, <Action.NNE: 25>, 11, <Action.SSE: -27>, 27, <Action.WSW: -11>, -11, <Action.WSW: -11>, -25, <Action.NNE: 25>, 15, <Action.WNW: 15>, 15, <Action.SSW: -25>, 11, <Action.ENE: 11>, 11, <Action.WNW: 15>, 15, <Action.WNW: 15>, -27, <Action.NNW: 27>, -11, <Action.ESE: -15>, -25, <Action.NNE: 25>, -15, <Action.ESE: -15>, 27, <Action.ENE: 11>, 27, <Action.SSE: -27>, -15, <Action.SSE: -27>, -25, <Action.SSW: -25>, -15, <Action.NNW: 27>, 11, <Action.ENE: 11>, -15, <Action.WNW: 15>, -15]
+Final State: Isolation(board=39980933008073672519068934297446395, ply_count=38, locs=(41, 91))
+History: [99, 21, <Action.ENE: 11>, 25, <Action.ESE: -15>, 25, <Action.ENE: 11>, 11, <Action.SSE: -27>, 11, <Action.SSE: -27>, -15, <Action.SSW: -25>, -25, <Action.SSW: -25>, -25, <Action.WNW: 15>, 11, <Action.NNE: 25>, 15, <Action.SSE: -27>, -25, <Action.WNW: 15>, 11, <Action.NNE: 25>, 25, <Action.WSW: -11>, 15, <Action.NNE: 25>, 27, <Action.WSW: -11>, -11, <Action.NNE: 25>, -15, <Action.SSE: -27>, -15, <Action.ESE: -15>, <Action.NNE: 25>]
 Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
@@ -59,13 +59,13 @@ First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Cu
 Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101715752 on ./q/q85105.json
-INFO:filelock:Lock 112101715752 acquired on ./q/q85105.json
-DEBUG:filelock:Attempting to release lock 112101715752 on ./q/q85105.json
-INFO:filelock:Lock 112101715752 released on ./q/q85105.json
+DEBUG:filelock:Attempting to acquire lock 112018636192 on ./q/q19569.json
+INFO:filelock:Lock 112018636192 acquired on ./q/q19569.json
+DEBUG:filelock:Attempting to release lock 112018636192 on ./q/q19569.json
+INFO:filelock:Lock 112018636192 released on ./q/q19569.json
 INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=41482576570130755052376904140351473, ply_count=35, locs=(1, 105))
-History: [20, 3, 25, <Action.NNE: 25>, 25, <Action.NNE: 25>, 11, <Action.NNE: 25>, -15, <Action.WSW: -11>, -25, <Action.SSE: -27>, -25, <Action.WSW: -11>, 11, <Action.NNE: 25>, -25, <Action.WSW: -11>, 15, <Action.NNE: 25>, 25, <Action.WSW: -11>, -11, <Action.NNE: 25>, 15, <Action.WSW: -11>, -27, <Action.SSE: -27>, 11, <Action.NNE: 25>, -15, <Action.NNE: 25>, 11, <Action.ENE: 11>, <Action.SSW: -25>]
+Final State: Isolation(board=41523158724432044593063419923163121, ply_count=22, locs=(1, 16))
+History: [29, 56, 25, <Action.NNE: 25>, -27, <Action.ESE: -15>, -25, <Action.NNE: 25>, 15, <Action.WSW: -11>, 25, <Action.SSE: -27>, 25, <Action.SSW: -25>, -27, <Action.SSW: -25>, -25, <Action.NNW: 27>, 11, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>]
 Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
@@ -75,45 +75,13 @@ First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Min
 Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101715472 on ./q/q89311.json
-INFO:filelock:Lock 112101715472 acquired on ./q/q89311.json
-DEBUG:filelock:Attempting to release lock 112101715472 on ./q/q89311.json
-INFO:filelock:Lock 112101715472 released on ./q/q89311.json
+DEBUG:filelock:Attempting to acquire lock 112018636192 on ./q/q16712.json
+INFO:filelock:Lock 112018636192 acquired on ./q/q16712.json
+DEBUG:filelock:Attempting to release lock 112018636192 on ./q/q16712.json
+INFO:filelock:Lock 112018636192 released on ./q/q16712.json
 INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=39981341491717108537067461742340087, ply_count=42, locs=(107, 39))
-History: [35, 53, <Action.NNE: 25>, -11, <Action.NNE: 25>, -11, <Action.NNE: 25>, -15, <Action.ESE: -15>, 11, <Action.ENE: 11>, 27, <Action.SSW: -25>, -25, <Action.ESE: -15>, -11, <Action.SSW: -25>, 15, <Action.ENE: 11>, 11, <Action.WNW: 15>, -25, <Action.WSW: -11>, 15, <Action.WSW: -11>, 25, <Action.SSW: -25>, -27, <Action.NNW: 27>, 11, <Action.ENE: 11>, -15, <Action.NNE: 25>, 27, <Action.WNW: 15>, -25, <Action.SSE: -27>, -27, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>]
-Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
-Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
-
-INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
-First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
-Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
-
-INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101713848 on ./q/q31784.json
-INFO:filelock:Lock 112101713848 acquired on ./q/q31784.json
-DEBUG:filelock:Attempting to release lock 112101713848 on ./q/q31784.json
-INFO:filelock:Lock 112101713848 released on ./q/q31784.json
-INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=30447915481260452305592263443383931, ply_count=47, locs=(109, 28))
-History: [96, 48, -11, <Action.NNE: 25>, -11, <Action.ESE: -15>, -27, <Action.NNE: 25>, -25, <Action.ENE: 11>, -15, <Action.ENE: 11>, 27, <Action.SSW: -25>, 27, <Action.ESE: -15>, -15, <Action.SSW: -25>, -11, <Action.SSE: -27>, -27, <Action.WSW: -11>, 11, <Action.NNE: 25>, 11, <Action.WSW: -11>, 27, <Action.NNE: 25>, 27, <Action.NNE: 25>, 15, <Action.SSE: -27>, -27, <Action.SSW: -25>, 15, <Action.WNW: 15>, -27, <Action.NNW: 27>, 15, <Action.WNW: 15>, 11, <Action.ENE: 11>, 27, <Action.SSE: -27>, -15, <Action.SSE: -27>, <Action.ENE: 11>]
-Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
-Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
-
-INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
-First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
-Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
-
-INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101713848 on ./q/q64995.json
-INFO:filelock:Lock 112101713848 acquired on ./q/q64995.json
-DEBUG:filelock:Attempting to release lock 112101713848 on ./q/q64995.json
-INFO:filelock:Lock 112101713848 released on ./q/q64995.json
-INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=35821372172640736028659930571514941, ply_count=71, locs=(65, 85))
-History: [62, 95, <Action.NNE: 25>, -11, <Action.NNE: 25>, 15, <Action.ESE: -15>, -11, <Action.ENE: 11>, -27, <Action.SSE: -27>, -27, <Action.SSW: -25>, -27, <Action.ENE: 11>, 11, <Action.SSE: -27>, 27, <Action.WNW: 15>, 15, <Action.NNE: 25>, -25, <Action.WSW: -11>, -27, <Action.WSW: -11>, 11, <Action.NNE: 25>, 27, <Action.ESE: -15>, -25, <Action.SSW: -25>, 27, <Action.WSW: -11>, 27, <Action.NNE: 25>, 11, <Action.ESE: -15>, -27, <Action.ENE: 11>, 15, <Action.SSE: -27>, -25, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WNW: 15>, 25, <Action.ENE: 11>, -11, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, 11, <Action.NNE: 25>, -25, <Action.WNW: 15>, 11, <Action.NNE: 25>, 27, <Action.NNE: 25>, 27, <Action.WSW: -11>, 27, <Action.WSW: -11>, -25, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ESE: -15>, -15, <Action.SSE: -27>]
+Final State: Isolation(board=27790253498676401567740263399466545, ply_count=73, locs=(68, 100))
+History: [88, 87, <Action.NNE: 25>, -27, <Action.ESE: -15>, -27, <Action.ENE: 11>, 15, <Action.SSW: -25>, -27, <Action.SSE: -27>, -15, <Action.ESE: -15>, 25, <Action.ENE: 11>, 27, <Action.SSE: -27>, 27, <Action.SSW: -25>, -11, <Action.NNW: 27>, -27, <Action.ENE: 11>, -27, <Action.SSW: -25>, 15, <Action.WSW: -11>, -27, <Action.NNW: 27>, 11, <Action.WNW: 15>, 15, <Action.NNE: 25>, 27, <Action.NNE: 25>, 11, <Action.ENE: 11>, 11, <Action.SSW: -25>, -27, <Action.ESE: -15>, 15, <Action.NNE: 25>, 15, <Action.WSW: -11>, -27, <Action.ESE: -15>, -27, <Action.WSW: -11>, -25, <Action.SSW: -25>, 11, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, -27, <Action.NNW: 27>, 11, <Action.ESE: -15>, -25, <Action.ENE: 11>, 15, <Action.WNW: 15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, 27, <Action.SSE: -27>, 15, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>]
 Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 
@@ -123,15 +91,15 @@ First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Cu
 Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101715360 on ./q/q82886.json
-INFO:filelock:Lock 112101715360 acquired on ./q/q82886.json
-DEBUG:filelock:Attempting to release lock 112101715360 on ./q/q82886.json
-INFO:filelock:Lock 112101715360 released on ./q/q82886.json
+DEBUG:filelock:Attempting to acquire lock 112018636416 on ./q/q55505.json
+INFO:filelock:Lock 112018636416 acquired on ./q/q55505.json
+DEBUG:filelock:Attempting to release lock 112018636416 on ./q/q55505.json
+INFO:filelock:Lock 112018636416 released on ./q/q55505.json
 INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=23450268763418738642086090601096879, ply_count=70, locs=(92, 104))
-History: [28, 62, 25, <Action.NNE: 25>, -11, <Action.NNE: 25>, 25, <Action.ESE: -15>, -27, <Action.ENE: 11>, -25, <Action.SSE: -27>, -11, <Action.SSW: -25>, 25, <Action.WNW: 15>, 25, <Action.SSE: -27>, 25, <Action.NNE: 25>, -11, <Action.WSW: -11>, -27, <Action.ESE: -15>, 25, <Action.NNW: 27>, 25, <Action.NNE: 25>, -11, <Action.WSW: -11>, 25, <Action.SSW: -25>, -11, <Action.SSE: -27>, -11, <Action.NNE: 25>, -11, <Action.SSE: -27>, -27, <Action.WSW: -11>, -25, <Action.WSW: -11>, 11, <Action.NNW: 27>, 15, <Action.NNE: 25>, -25, <Action.WNW: 15>, -15, <Action.SSE: -27>, 27, <Action.SSW: -25>, -11, <Action.ENE: 11>, 25, <Action.NNW: 27>, 27, <Action.NNE: 25>, 25, <Action.NNW: 27>, 11, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, 11, <Action.SSE: -27>, 11, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ENE: 11>]
-Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
-Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Final State: Isolation(board=38864946949201300284409732264896217, ply_count=68, locs=(8, 23))
+History: [31, 14, 11, <Action.NNE: 25>, 25, <Action.WSW: -11>, -11, <Action.NNE: 25>, 25, <Action.WNW: 15>, -27, <Action.SSE: -27>, -27, <Action.NNE: 25>, -25, <Action.WSW: -11>, 15, <Action.WSW: -11>, 15, <Action.NNE: 25>, 11, <Action.WSW: -11>, -25, <Action.NNE: 25>, 15, <Action.WNW: 15>, -11, <Action.SSE: -27>, 25, <Action.NNE: 25>, 25, <Action.WNW: 15>, 25, <Action.SSW: -25>, -15, <Action.SSE: -27>, 11, <Action.NNE: 25>, 11, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, 15, <Action.SSE: -27>, 11, <Action.ENE: 11>, -25, <Action.WNW: 15>, -15, <Action.NNE: 25>, -25, <Action.WNW: 15>, -25, <Action.SSW: -25>, 11, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.ESE: -15>, 15, <Action.SSW: -25>, -27, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
 INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
@@ -139,13 +107,13 @@ First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Min
 Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101713792 on ./q/q86568.json
-INFO:filelock:Lock 112101713792 acquired on ./q/q86568.json
-DEBUG:filelock:Attempting to release lock 112101713792 on ./q/q86568.json
-INFO:filelock:Lock 112101713792 released on ./q/q86568.json
+DEBUG:filelock:Attempting to acquire lock 112018635184 on ./q/q94132.json
+INFO:filelock:Lock 112018635184 acquired on ./q/q94132.json
+DEBUG:filelock:Attempting to release lock 112018635184 on ./q/q94132.json
+INFO:filelock:Lock 112018635184 released on ./q/q94132.json
 INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=36041869412311121416464947653257205, ply_count=62, locs=(86, 101))
-History: [26, 53, <Action.WSW: -11>, -11, <Action.NNE: 25>, -11, <Action.NNE: 25>, -11, <Action.WSW: -11>, 15, <Action.SSW: -25>, 11, <Action.WSW: -11>, 11, <Action.NNE: 25>, -25, <Action.NNW: 27>, 15, <Action.SSW: -25>, 11, <Action.ENE: 11>, -25, <Action.WNW: 15>, 15, <Action.NNE: 25>, 11, <Action.ENE: 11>, -25, <Action.SSE: -27>, 15, <Action.NNE: 25>, 25, <Action.SSE: -27>, 25, <Action.WNW: 15>, -15, <Action.SSE: -27>, 11, <Action.SSE: -27>, 11, <Action.SSW: -25>, -27, <Action.WSW: -11>, -11, <Action.NNE: 25>, 15, <Action.SSE: -27>, -11, <Action.WNW: 15>, 15, <Action.NNE: 25>, 11, <Action.ENE: 11>, -25, <Action.WNW: 15>, 27, <Action.WNW: 15>, -15, <Action.WNW: 15>, 27, <Action.WSW: -11>, <Action.WSW: -11>]
+Final State: Isolation(board=41522509815028301971173693012289207, ply_count=40, locs=(92, 23))
+History: [91, 86, <Action.SSW: -25>, -25, <Action.SSE: -27>, -27, <Action.SSW: -25>, -15, <Action.WNW: 15>, 27, <Action.NNE: 25>, 27, <Action.WNW: 15>, -25, <Action.WSW: -11>, -27, <Action.ESE: -15>, -15, <Action.NNE: 25>, 27, <Action.NNE: 25>, 27, <Action.ESE: -15>, 27, <Action.SSW: -25>, -15, <Action.SSW: -25>, 27, <Action.SSW: -25>, -25, <Action.NNW: 27>, -27, <Action.NNE: 25>, -27, <Action.ESE: -15>, 15, <Action.NNW: 27>, -27, <Action.NNE: 25>, <Action.WNW: 15>]
 Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
@@ -155,13 +123,205 @@ First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Cu
 Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 
 INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
-DEBUG:filelock:Attempting to acquire lock 112101713792 on ./q/q73441.json
-INFO:filelock:Lock 112101713792 acquired on ./q/q73441.json
-DEBUG:filelock:Attempting to release lock 112101713792 on ./q/q73441.json
-INFO:filelock:Lock 112101713792 released on ./q/q73441.json
+DEBUG:filelock:Attempting to acquire lock 112018635352 on ./q/q24725.json
+INFO:filelock:Lock 112018635352 acquired on ./q/q24725.json
+DEBUG:filelock:Attempting to release lock 112018635352 on ./q/q24725.json
+INFO:filelock:Lock 112018635352 released on ./q/q24725.json
 INFO:isolation:Status: Status.GAME_OVER
-Final State: Isolation(board=41523089365333355350987143248897983, ply_count=42, locs=(43, 18))
-History: [15, 52, 25, <Action.SSW: -25>, 25, <Action.WSW: -11>, -11, <Action.NNE: 25>, 25, <Action.NNW: 27>, 15, <Action.NNE: 25>, -27, <Action.WSW: -11>, -25, <Action.SSE: -27>, -25, <Action.SSW: -25>, 11, <Action.WSW: -11>, 25, <Action.NNE: 25>, 27, <Action.NNE: 25>, 11, <Action.WSW: -11>, -25, <Action.NNE: 25>, 15, <Action.SSE: -27>, -11, <Action.WSW: -11>, 25, <Action.SSW: -25>, -11, <Action.ENE: 11>, -27, <Action.SSW: -25>, -25, <Action.NNW: 27>, 11, <Action.ESE: -15>]
+Final State: Isolation(board=36166428528729786837406420157170707, ply_count=70, locs=(49, 107))
+History: [93, 27, -11, <Action.NNE: 25>, -11, <Action.WSW: -11>, 15, <Action.NNE: 25>, -25, <Action.NNE: 25>, -27, <Action.WSW: -11>, -27, <Action.SSE: -27>, 11, <Action.WSW: -11>, 27, <Action.WSW: -11>, 27, <Action.NNW: 27>, 27, <Action.ENE: 11>, -25, <Action.NNW: 27>, -27, <Action.ESE: -15>, 15, <Action.SSE: -27>, -27, <Action.ESE: -15>, -27, <Action.SSW: -25>, 11, <Action.WSW: -11>, 27, <Action.NNE: 25>, 27, <Action.ESE: -15>, 27, <Action.WSW: -11>, -25, <Action.WNW: 15>, -27, <Action.WSW: -11>, -27, <Action.NNW: 27>, 15, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.NNW: 27>, 27, <Action.ENE: 11>, 11, <Action.ENE: 11>, 27, <Action.WNW: 15>, 27, <Action.SSE: -27>, 15, <Action.SSE: -27>, -25, <Action.NNE: 25>, -27, <Action.NNW: 27>, -11, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635520 on ./q/q21553.json
+INFO:filelock:Lock 112018635520 acquired on ./q/q21553.json
+DEBUG:filelock:Attempting to release lock 112018635520 on ./q/q21553.json
+INFO:filelock:Lock 112018635520 released on ./q/q21553.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=38683031930944943292740666244229075, ply_count=60, locs=(73, 107))
+History: [66, 46, <Action.NNE: 25>, 11, <Action.WSW: -11>, -15, <Action.ESE: -15>, -15, <Action.WSW: -11>, -25, <Action.SSW: -25>, 15, <Action.WSW: -11>, 11, <Action.NNE: 25>, -25, <Action.NNE: 25>, 27, <Action.NNE: 25>, -15, <Action.ESE: -15>, 11, <Action.WSW: -11>, 15, <Action.WSW: -11>, -25, <Action.SSW: -25>, -11, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, 15, <Action.NNE: 25>, 11, <Action.WSW: -11>, -25, <Action.NNE: 25>, -11, <Action.NNW: 27>, 27, <Action.ESE: -15>, 11, <Action.SSW: -25>, 27, <Action.ENE: 11>, 11, <Action.WNW: 15>, -15, <Action.SSW: -25>, 11, <Action.WSW: -11>, -15, <Action.SSE: -27>, 27, <Action.WSW: -11>, -25, <Action.NNE: 25>, 11, <Action.NNE: 25>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635520 on ./q/q78729.json
+INFO:filelock:Lock 112018635520 acquired on ./q/q78729.json
+DEBUG:filelock:Attempting to release lock 112018635520 on ./q/q78729.json
+INFO:filelock:Lock 112018635520 released on ./q/q78729.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=41360896966883839466743202534057851, ply_count=30, locs=(92, 107))
+History: [42, 31, 25, <Action.NNE: 25>, 15, <Action.NNE: 25>, -27, <Action.SSE: -27>, -27, <Action.WSW: -11>, 25, <Action.SSW: -25>, 15, <Action.WSW: -11>, -27, <Action.NNE: 25>, -25, <Action.NNE: 25>, 11, <Action.WSW: -11>, -25, <Action.NNE: 25>, 27, <Action.SSE: -27>, 11, <Action.NNE: 25>, 25, <Action.ENE: 11>, <Action.NNW: 27>, <Action.NNW: 27>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635520 on ./q/q81379.json
+INFO:filelock:Lock 112018635520 acquired on ./q/q81379.json
+DEBUG:filelock:Attempting to release lock 112018635520 on ./q/q81379.json
+INFO:filelock:Lock 112018635520 released on ./q/q81379.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=28296732063155815307400109438821625, ply_count=62, locs=(113, 98))
+History: [1, 42, <Action.NNE: 25>, -11, <Action.WSW: -11>, -15, <Action.NNE: 25>, 25, <Action.NNE: 25>, -11, <Action.WSW: -11>, -11, <Action.WSW: -11>, -11, <Action.WNW: 15>, 25, <Action.NNE: 25>, -15, <Action.SSE: -27>, 11, <Action.WNW: 15>, -27, <Action.SSE: -27>, 15, <Action.WNW: 15>, 11, <Action.ENE: 11>, 11, <Action.ESE: -15>, 27, <Action.NNW: 27>, 15, <Action.NNE: 25>, 25, <Action.WSW: -11>, -27, <Action.SSE: -27>, -11, <Action.WNW: 15>, -11, <Action.WNW: 15>, 15, <Action.SSW: -25>, -25, <Action.ENE: 11>, -27, <Action.SSW: -25>, -11, <Action.WNW: 15>, 25, <Action.NNE: 25>, -11, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, -27, <Action.SSW: -25>, 25, <Action.NNW: 27>, 27, <Action.NNE: 25>, 25]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018636416 on ./q/q19916.json
+INFO:filelock:Lock 112018636416 acquired on ./q/q19916.json
+DEBUG:filelock:Attempting to release lock 112018636416 on ./q/q19916.json
+INFO:filelock:Lock 112018636416 released on ./q/q19916.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=33567410178176103784329865632229091, ply_count=59, locs=(101, 3))
+History: [60, 75, -15, <Action.NNE: 25>, -15, <Action.ENE: 11>, -15, <Action.ESE: -15>, -11, <Action.ENE: 11>, 27, <Action.ESE: -15>, 15, <Action.SSE: -27>, -11, <Action.WSW: -11>, -27, <Action.NNE: 25>, 25, <Action.WSW: -11>, 11, <Action.ESE: -15>, -27, <Action.NNE: 25>, -15, <Action.WSW: -11>, 27, <Action.WSW: -11>, -11, <Action.NNE: 25>, 25, <Action.WSW: -11>, -11, <Action.NNE: 25>, 15, <Action.WSW: -11>, 11, <Action.SSW: -25>, 25, <Action.SSW: -25>, -11, <Action.NNW: 27>, 15, <Action.NNE: 25>, 11, <Action.ENE: 11>, -25, <Action.ESE: -15>, 15, <Action.ENE: 11>, 11, <Action.SSE: -27>, -25, <Action.SSE: -27>, 11, <Action.SSW: -25>, 27, <Action.WSW: -11>, <Action.WSW: -11>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018636192 on ./q/q74759.json
+INFO:filelock:Lock 112018636192 acquired on ./q/q74759.json
+DEBUG:filelock:Attempting to release lock 112018636192 on ./q/q74759.json
+INFO:filelock:Lock 112018636192 released on ./q/q74759.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=39981561746198138490990837668538172, ply_count=64, locs=(60, 1))
+History: [73, 56, <Action.ENE: 11>, -27, <Action.ESE: -15>, 11, <Action.SSW: -25>, 15, <Action.SSE: -27>, -25, <Action.ENE: 11>, 15, <Action.NNE: 25>, -11, <Action.WSW: -11>, -27, <Action.WNW: 15>, 25, <Action.WNW: 15>, -11, <Action.WSW: -11>, -15, <Action.NNE: 25>, 27, <Action.ESE: -15>, 15, <Action.NNE: 25>, 11, <Action.ESE: -15>, 11, <Action.NNE: 25>, -27, <Action.ESE: -15>, 11, <Action.SSW: -25>, 25, <Action.SSW: -25>, -11, <Action.ENE: 11>, 15, <Action.WNW: 15>, -25, <Action.ENE: 11>, -11, <Action.WNW: 15>, 15, <Action.WSW: -11>, -27, <Action.NNE: 25>, 11, <Action.ESE: -15>, -15, <Action.SSE: -27>, -15, <Action.WNW: 15>, 11, <Action.WNW: 15>, -27, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, 11, <Action.SSW: -25>, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018636192 on ./q/q95052.json
+INFO:filelock:Lock 112018636192 acquired on ./q/q95052.json
+DEBUG:filelock:Attempting to release lock 112018636192 on ./q/q95052.json
+INFO:filelock:Lock 112018636192 released on ./q/q95052.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=38598750071931179172118394287948899, ply_count=73, locs=(4, 53))
+History: [68, 80, -11, <Action.ESE: -15>, -11, <Action.SSW: -25>, -15, <Action.SSE: -27>, -11, <Action.WSW: -11>, 15, <Action.WNW: 15>, -27, <Action.NNW: 27>, 25, <Action.ENE: 11>, 15, <Action.ENE: 11>, 11, <Action.SSE: -27>, -25, <Action.WSW: -11>, -25, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, 11, <Action.WNW: 15>, 11, <Action.NNE: 25>, 27, <Action.NNE: 25>, -15, <Action.SSE: -27>, -25, <Action.WNW: 15>, 15, <Action.WSW: -11>, 27, <Action.WNW: 15>, 11, <Action.ENE: 11>, -25, <Action.WNW: 15>, 15, <Action.SSW: -25>, 11, <Action.WSW: -11>, -15, <Action.NNE: 25>, 27, <Action.WNW: 15>, -15, <Action.SSE: -27>, -15, <Action.SSW: -25>, 27, <Action.SSE: -27>, -25, <Action.ESE: -15>, 11, <Action.NNE: 25>, -25, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, -27, <Action.NNE: 25>, 15, <Action.ESE: -15>, -11, <Action.NNW: 27>, <Action.ESE: -15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635352 on ./q/q19609.json
+INFO:filelock:Lock 112018635352 acquired on ./q/q19609.json
+DEBUG:filelock:Attempting to release lock 112018635352 on ./q/q19609.json
+INFO:filelock:Lock 112018635352 released on ./q/q19609.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=41440721529645073494256247673758135, ply_count=58, locs=(78, 10))
+History: [18, 68, <Action.NNE: 25>, -11, <Action.ENE: 11>, -11, <Action.ENE: 11>, -15, <Action.SSW: -25>, -15, <Action.WSW: -11>, 11, <Action.WNW: 15>, 15, <Action.SSW: -25>, 25, <Action.ENE: 11>, 15, <Action.WNW: 15>, -11, <Action.NNE: 25>, 15, <Action.WSW: -11>, -25, <Action.SSE: -27>, 11, <Action.ESE: -15>, 15, <Action.WSW: -11>, -27, <Action.NNW: 27>, -25, <Action.NNE: 25>, -15, <Action.ENE: 11>, 27, <Action.WNW: 15>, 27, <Action.ENE: 11>, 11, <Action.ENE: 11>, 15, <Action.ESE: -15>, -27, <Action.SSW: -25>, -25, <Action.SSE: -27>, -25, <Action.SSW: -25>, 11, <Action.WSW: -11>, -25, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635352 on ./q/q65437.json
+INFO:filelock:Lock 112018635352 acquired on ./q/q65437.json
+DEBUG:filelock:Attempting to release lock 112018635352 on ./q/q65437.json
+INFO:filelock:Lock 112018635352 released on ./q/q65437.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=27486609245005141577029393025271731, ply_count=63, locs=(13, 111))
+History: [32, 39, 11, <Action.SSW: -25>, 25, <Action.WSW: -11>, -27, <Action.NNE: 25>, -11, <Action.NNE: 25>, -15, <Action.WSW: -11>, 25, <Action.NNE: 25>, -11, <Action.NNE: 25>, 25, <Action.SSE: -27>, 15, <Action.WNW: 15>, -25, <Action.SSW: -25>, -11, <Action.WNW: 15>, -27, <Action.SSW: -25>, 25, <Action.ENE: 11>, -11, <Action.WNW: 15>, 15, <Action.SSW: -25>, 25, <Action.ENE: 11>, 25, <Action.NNW: 27>, -11, <Action.SSW: -25>, 25, <Action.WSW: -11>, -27, <Action.SSW: -25>, 11, <Action.ENE: 11>, 25, <Action.NNW: 27>, -15, <Action.NNW: 27>, -27, <Action.NNE: 25>, 15, <Action.ESE: -15>, 25, <Action.ENE: 11>, -27, <Action.SSE: -27>, -27, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, -25, <Action.NNE: 25>, 11]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635520 on ./q/q66040.json
+INFO:filelock:Lock 112018635520 acquired on ./q/q66040.json
+DEBUG:filelock:Attempting to release lock 112018635520 on ./q/q66040.json
+INFO:filelock:Lock 112018635520 released on ./q/q66040.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=39007513394759846794118980426934269, ply_count=60, locs=(14, 57))
+History: [85, 44, <Action.NNE: 25>, -15, <Action.ESE: -15>, 11, <Action.ENE: 11>, 15, <Action.SSE: -27>, -27, <Action.WSW: -11>, -27, <Action.SSW: -25>, 15, <Action.WNW: 15>, 11, <Action.SSE: -27>, 15, <Action.NNE: 25>, -27, <Action.WSW: -11>, 15, <Action.NNW: 27>, -11, <Action.WSW: -11>, 15, <Action.NNE: 25>, 25, <Action.ENE: 11>, -27, <Action.ENE: 11>, -11, <Action.ESE: -15>, 25, <Action.ESE: -15>, -11, <Action.SSW: -25>, 25, <Action.NNW: 27>, -27, <Action.WSW: -11>, -11, <Action.WNW: 15>, 25, <Action.NNE: 25>, 15, <Action.ESE: -15>, 11, <Action.SSE: -27>, 25, <Action.NNE: 25>, -27, <Action.WSW: -11>, 25, <Action.ESE: -15>, 11, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635352 on ./q/q46539.json
+INFO:filelock:Lock 112018635352 acquired on ./q/q46539.json
+DEBUG:filelock:Attempting to release lock 112018635352 on ./q/q46539.json
+INFO:filelock:Lock 112018635352 released on ./q/q46539.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=37951961570558483939245639574185659, ply_count=55, locs=(23, 108))
+History: [60, 70, -15, <Action.NNE: 25>, -11, <Action.WSW: -11>, -15, <Action.NNE: 25>, 11, <Action.ESE: -15>, 11, <Action.WSW: -11>, 15, <Action.SSW: -25>, -25, <Action.ENE: 11>, -25, <Action.ESE: -15>, 15, <Action.WSW: -11>, 11, <Action.NNE: 25>, 15, <Action.NNE: 25>, -25, <Action.ESE: -15>, 11, <Action.SSW: -25>, -15, <Action.SSW: -25>, 11, <Action.NNW: 27>, -27, <Action.WSW: -11>, 25, <Action.WNW: 15>, 15, <Action.WSW: -11>, -27, <Action.NNW: 27>, 25, <Action.NNE: 25>, 27, <Action.ENE: 11>, 15, <Action.SSW: -25>, -11, <Action.SSW: -25>, -25, <Action.ENE: 11>, -11, <Action.NNE: 25>, -27, <Action.ENE: 11>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635184 on ./q/q26381.json
+INFO:filelock:Lock 112018635184 acquired on ./q/q26381.json
+DEBUG:filelock:Attempting to release lock 112018635184 on ./q/q26381.json
+INFO:filelock:Lock 112018635184 released on ./q/q26381.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=37789971658394059368140054172132911, ply_count=67, locs=(92, 7))
+History: [27, 99, <Action.NNE: 25>, -11, <Action.WSW: -11>, -27, <Action.NNE: 25>, -27, <Action.NNE: 25>, 15, <Action.WSW: -11>, 11, <Action.SSE: -27>, 27, <Action.SSW: -25>, -25, <Action.WSW: -11>, -15, <Action.NNE: 25>, 27, <Action.NNE: 25>, -15, <Action.SSE: -27>, 27, <Action.NNE: 25>, -11, <Action.WSW: -11>, -27, <Action.WSW: -11>, -27, <Action.NNE: 25>, -15, <Action.NNE: 25>, 25, <Action.WNW: 15>, 27, <Action.SSE: -27>, 27, <Action.SSW: -25>, -15, <Action.WSW: -11>, 27, <Action.ESE: -15>, -25, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, 15, <Action.SSE: -27>, -25, <Action.WSW: -11>, -27, <Action.NNE: 25>, -11, <Action.NNE: 25>, -27, <Action.WNW: 15>, 11, <Action.SSW: -25>, <Action.ESE: -15>, <Action.NNW: 27>, 25, <Action.ESE: -15>, -11, <Action.ENE: 11>, -11, <Action.ESE: -15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+DEBUG:filelock:Attempting to acquire lock 112018635184 on ./q/q68491.json
+INFO:filelock:Lock 112018635184 acquired on ./q/q68491.json
+DEBUG:filelock:Attempting to release lock 112018635184 on ./q/q68491.json
+INFO:filelock:Lock 112018635184 released on ./q/q68491.json
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=25134592652722935903458962337842217, ply_count=67, locs=(9, 113))
+History: [94, 7, -11, <Action.NNE: 25>, -11, <Action.NNE: 25>, -25, <Action.NNE: 25>, 27, <Action.NNE: 25>, -15, <Action.ESE: -15>, 27, <Action.SSE: -27>, -11, <Action.SSW: -25>, -27, <Action.SSE: -27>, -27, <Action.WSW: -11>, 15, <Action.NNE: 25>, 25, <Action.NNE: 25>, -27, <Action.WSW: -11>, -15, <Action.SSW: -25>, 27, <Action.ESE: -15>, 27, <Action.NNE: 25>, -15, <Action.WSW: -11>, 27, <Action.WSW: -11>, 27, <Action.NNE: 25>, -25, <Action.NNE: 25>, -27, <Action.ESE: -15>, -25, <Action.WSW: -11>, -27, <Action.NNE: 25>, 25, <Action.WNW: 15>, -27, <Action.SSW: -25>, 25, <Action.NNW: 27>, 25, <Action.NNE: 25>, 15, <Action.ESE: -15>, -27, <Action.WSW: -11>, 11, <Action.WNW: 15>, -25, <Action.NNE: 25>, 15, <Action.WSW: -11>, -25, <Action.WNW: 15>, -11]
 Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
 Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
 
