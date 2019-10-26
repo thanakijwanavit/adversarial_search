@@ -10,7 +10,10 @@ def merge_dict_add_value(dict1, dict2):
    for key, value in dict3.items():
        if key in dict1 and key in dict2:
                dict3[key] = value/2 + dict1[key]/2
- 
+               if dict3[key] > 1:
+                   dict3[key] = 1
+               elif dict3[key] < -1:
+                   dict3[key] = -1
    return dict3
 
 files = os.listdir('./q')
