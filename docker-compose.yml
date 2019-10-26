@@ -1,5 +1,24 @@
-service:
-  calculate:
-
-
+version: '3.7'
+services:
+  match:
+    image: "match:latest"
+    volumes:
+      - q_data:/app/q
+    networks:
+      - overlay
+    deploy:
+      mode: replicated
+      replicas: 20
   merger:
+    image: "merger:latest"
+    volumes:
+      - q_data:/app/q
+    networks:
+      - overlay
+    deploy:
+      mode: replicated
+      replicas: 5
+volumes:
+  q_data:
+networks:
+  overlay:
