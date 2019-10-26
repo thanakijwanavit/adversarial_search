@@ -1,23 +1,32 @@
 version: '3.7'
 services:
   match:
-    image: "match:latest"
+    image: "thanakijwanavit/match:latest"
     volumes:
       - q_data:/app/q
     networks:
       - overlay
     deploy:
       mode: replicated
-      replicas: 20
+      replicas: 1
   merger:
-    image: "merger:latest"
+    image: "thanakijwanavit/merger:latest"
     volumes:
       - q_data:/app/q
     networks:
       - overlay
     deploy:
       mode: replicated
-      replicas: 5
+      replicas: 1
+  monitor:
+    image: "thanakijwanavit/monitor:latest"
+    volumes:
+      - q_data:/app/q
+    networks:
+      - overlay
+    deploy:
+      mode: replicated
+      replicas: 1
 volumes:
   q_data:
 networks:
