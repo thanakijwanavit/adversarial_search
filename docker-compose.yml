@@ -1,25 +1,25 @@
 version: '3.7'
 services:
   match:
-    image: "thanakijwanavit/match:latest"
+    image: "thanakijwanavit/match:first"
     volumes:
       - q_data:/app/q
     networks:
       - overlay
     deploy:
       mode: replicated
-      replicas: 1
+      replicas: 100
   merger:
-    image: "thanakijwanavit/merger:latest"
+    image: "thanakijwanavit/merger:second"
     volumes:
       - q_data:/app/q
     networks:
       - overlay
     deploy:
       mode: replicated
-      replicas: 1
+      replicas: 100
   monitor:
-    image: "thanakijwanavit/monitor:latest"
+    image: "thanakijwanavit/monitor:first"
     volumes:
       - q_data:/app/q
     networks:
@@ -31,3 +31,7 @@ volumes:
   q_data:
 networks:
   overlay:
+          ipam:
+              driver: default
+              config:
+                - subnet: "172.28.0.0/16"
