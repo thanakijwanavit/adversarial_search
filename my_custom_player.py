@@ -1,4 +1,5 @@
 from sample_players import DataPlayer
+from search_algorithms import *
 from isolation import DebugState
 import sklearn as skl
 from sklearn.preprocessing import MinMaxScaler
@@ -8,6 +9,7 @@ import json
 import os
 import sys
 from filelock import FileLock
+import random
 
 
 class CustomPlayer(DataPlayer):
@@ -211,3 +213,28 @@ class CustomPlayer(DataPlayer):
         #sys.stdout.flush()
         #print(debug_board)
         self.queue.put(choice)
+        
+
+
+class CustomPlayer2(DataPlayer):
+    '''modification of minimax algorithm'''
+    def get_action(self,state):
+        '''return get action'''
+        if state.ply_count < 4:
+            if state in self.data:
+                self.queue.put(self.data[state])
+            else:
+                self.queue.put(random.choice(state.actions()))
+        else:
+            depth_limit = 3
+            for depth in range(1, depth_limit +1):
+                best_move = alpha_beta_search(state, self.player_id, depth)
+            self.queue.put(best_move)
+
+
+
+
+
+
+
+CustomPlayer = CustomPlayer2
