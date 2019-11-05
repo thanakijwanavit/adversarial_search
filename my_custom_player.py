@@ -226,7 +226,7 @@ class CustomPlayer2(DataPlayer):
             else:
                 self.queue.put(random.choice(state.actions()))
         else:
-            depth_limit = 3
+            depth_limit = 6
             for depth in range(1, depth_limit +1):
                 best_move = alpha_beta_search(state, self.player_id, depth)
             self.queue.put(best_move)

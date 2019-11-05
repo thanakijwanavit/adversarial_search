@@ -1,6 +1,3 @@
-# develop an opening book of the best moves for every possible game state
-# from an empty board to at least a depth of 4 plies
-
 import time
 import random, pickle
 from collections import defaultdict, Counter
@@ -23,7 +20,7 @@ def build_table(num_rounds=20):
     for i in range(num_rounds):
         state = Isolation()
         print(i)
-        print(state.board,bin(state.board))
+        #print(state.board,bin(state.board))
         build_tree(state, book)
     return {k: max(v, key=v.get) for k, v in book.items()}
 
@@ -31,7 +28,8 @@ def build_table(num_rounds=20):
 def build_tree(state, book, depth=4):
     if depth <= 0 or state.terminal_test():
         return -simulate(state)
-    action = alpha_beta_search(state,state.player())
+    #action = alpha_beta_search(state,state.player())
+    action = random.choice(state.actions())
     reward = build_tree(state.result(action), book, depth - 1)
 
     sym_states_type = symmetric_states(state)
@@ -42,6 +40,7 @@ def build_tree(state, book, depth=4):
             sym_action = symmetric_action(action, sym_type)
             book[sym_state][sym_action] += reward
             break
+    print(reward)
     book[state][action] += reward
 
     return -reward
@@ -49,7 +48,7 @@ def build_tree(state, book, depth=4):
 
 def simulate(state):
     while not state.terminal_test():
-        state = state.result(random.choice(state.actions()))
+        state = state.result(alpha_beta_search(state,state.player()))
     return -1 if state.utility(state.player()) < 0 else 1
 
 
@@ -112,7 +111,7 @@ def symmetric_action(action, sym_type):
 
 
 
-NUM_ROUNDS = 100
+NUM_ROUNDS = 1000
 
 if __name__ == "__main__":
     print("Enter>>>")
