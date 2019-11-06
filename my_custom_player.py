@@ -10,6 +10,7 @@ import os
 import sys
 from filelock import FileLock
 import random
+MAX_DEPTH = 4
 
 
 class CustomPlayer(DataPlayer):
@@ -226,15 +227,34 @@ class CustomPlayer2(DataPlayer):
             else:
                 self.queue.put(random.choice(state.actions()))
         else:
-            depth_limit = 6
+            depth_limit = 5
             for depth in range(1, depth_limit +1):
                 best_move = alpha_beta_search(state, self.player_id, depth)
             self.queue.put(best_move)
 
 
+class CustomPlayer3(DataPlayer):
+    ''' test the latest version of minimax plus openbook'''
+    def get_action(self,state):
+        if state.ply_count < 4 and self.data is not None:
+            if state in self.data:
+                action = self.data[state]
+                self.queue.put(action)
+                return
+            else:
+                print('state not in book')
+        else:
+            ##iterative deepening
+            depth = 1
+            while MAX_DEPTH is None or depth <= MAX_DEPTH:
+                action = alpha_beta_search(state, self.player_id ,depth)
+                if action is None:
+                    print('error no move found')
+                    return
+                self.queue.put(action)
+                depth +=1
 
 
 
 
-
-CustomPlayer = CustomPlayer2
+CustomPlayer = CustomPlayer3
