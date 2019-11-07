@@ -16,7 +16,7 @@ I used a random action agent as a baseline to compare against alpha-beta pruner 
 
 | algorithm | win % (1000 trials)| loss % (1000 trials)|
 |-----------|--------------------|---------------------|
-|random action|                  |                     |
+|random action|6.3               |                     |
 |alpha beta pruner|              |                     |
 |openbook +abpruner|             |                     |
 |q table (openbook) only|        |                     |

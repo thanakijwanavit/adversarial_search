@@ -254,6 +254,11 @@ class CustomPlayer3(DataPlayer):
                 self.queue.put(action)
                 depth +=1
 
+class RandomPlayer(DataPlayer):
+    '''modification of minimax algorithm'''
+    def get_action(self,state):
+        '''return random action'''
+        self.queue.put(random.choice(state.actions()))
 
 
 
