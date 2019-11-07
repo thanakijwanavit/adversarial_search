@@ -261,5 +261,16 @@ class RandomPlayer(DataPlayer):
         self.queue.put(random.choice(state.actions()))
 
 
+class MiniMaxPlayerDemo(DataPlayer):
+    '''modification of minimax algorithm'''
+    def get_action(self,state):
+        if state.ply_count < 2:
+            self.queue.put(random.choice(state.actions()))
+        else:
+            depth_limit = 4
+            for depth in range(1, depth_limit +1):
+                best_move = alpha_beta_search(state, self.player_id, depth)
+            self.queue.put(best_move)
 
-CustomPlayer = CustomPlayer3
+
+#CustomPlayer = MiniMaxPlayerDemo
