@@ -10,7 +10,7 @@ The move with the highest score is chosen
 ### What opening moves does your book suggest are most effective on an empty board for player 1 and what is player 2's best reply?
 best and worst 5 moves was analyzed by running through each first move 100 times and recording number of wins using random choice. 
 #### The best opening moves are 
-
+<pre>
 -74
 
 + - + - + - + - + - + - + - + - + - + - + - +
@@ -121,7 +121,9 @@ best and worst 5 moves was analyzed by running through each first move 100 times
 |   |   |   |   |   |   |   |   |   |   |   |
 + - + - + - + - + - + - + - + - + - + - + - +
 
+</pre>
 #### The worst opening moves are
+<pre>
 
 -100
 
@@ -233,6 +235,7 @@ best and worst 5 moves was analyzed by running through each first move 100 times
 |   |   |   |   |   |   |   |   |   |   |   |
 + - + - + - + - + - + - + - + - + - + - + - +
 
+</pre>
 
 
 ### Result
