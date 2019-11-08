@@ -248,7 +248,7 @@ I used a random action agent as a baseline to compare against alpha-beta pruner 
 |random action|6.3               |93.7                  |
 |alpha beta pruner|42.8              |57.2                  |
 |openbook +abpruner|51.9             |48.1                     |
-|q table (openbook) only|        |                     |
+|q table (openbook) only|27.5        |72.5                     |
 
 
 
