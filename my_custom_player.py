@@ -273,4 +273,4 @@ class MiniMaxPlayerDemo(DataPlayer):
             self.queue.put(best_move)
 
 
-#CustomPlayer = MiniMaxPlayerDemo
+CustomPlayer = MiniMaxPlayerDemo
