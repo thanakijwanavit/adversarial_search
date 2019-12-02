@@ -16,7 +16,7 @@ EXPORT_IMAGES = True
 
 BOOK_DEPTH = 4
 #number of rounds to simulate after book depth has been met if we're using win_score
-NUM_ROUNDS = 10
+NUM_ROUNDS = 5
 
 #scalars for how own and opponent liberties affect score
 OWN_SCALE = 1
