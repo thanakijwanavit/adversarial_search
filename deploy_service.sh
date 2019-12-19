@@ -1,1 +1,0 @@
-docker service create --name match --replicas 5 --mount type=bind,source="$(pwd)"/q,target=/app/q test_app:latest
